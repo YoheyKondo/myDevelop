@@ -1,0 +1,210 @@
+# Translation of Plugins - WP Fastest Cache - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WP Fastest Cache - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-03-10 15:24:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WP Fastest Cache - Stable (latest release)\n"
+
+#: inc/admin.php:1079
+msgid "Don't show the cached version for desktop to mobile devices"
+msgstr "モバイルユーザーにデスクトップ版のキャッシュを表示しない"
+
+#: templates/timeout.php:95 inc/admin.php:1492
+msgid "All"
+msgstr "すべて"
+
+#: templates/newpost.php:68 templates/updatepost.php:64
+#: templates/preload.php:102
+msgid "OK"
+msgstr "OK"
+
+#: templates/exclude.php:97 templates/preload.php:45 inc/admin.php:1772
+msgid "Pages"
+msgstr "固定ページ"
+
+#: templates/disable_wp_cron.php:20
+msgid "Warning"
+msgstr "警告"
+
+#: templates/preload.php:33
+msgid "Homepage"
+msgstr "ホームページ"
+
+#: inc/admin.php:991
+msgid "Settings"
+msgstr "設定"
+
+#: inc/admin.php:1722
+msgid "Update"
+msgstr "更新"
+
+#: templates/exclude.php:99 inc/admin.php:1770
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: templates/exclude.php:101 templates/preload.php:53 inc/admin.php:1773
+msgid "Attachments"
+msgstr "添付ファイル"
+
+#: templates/exclude.php:94 templates/preload.php:41 inc/admin.php:1768
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: templates/preload.php:63
+msgid "Custom Taxonomies"
+msgstr "カスタムタクソノミー"
+
+#: inc/admin.php:1727
+msgid "Download"
+msgstr "ダウンロード"
+
+#: inc/admin.php:1025
+msgid "Enable"
+msgstr "有効化"
+
+#: templates/exclude.php:93 templates/timeout.php:96 inc/admin.php:1493
+#: inc/admin.php:1767
+msgid "Home Page"
+msgstr "ホームページ"
+
+#: inc/admin.php:1078
+msgid "Mobile"
+msgstr "モバイル"
+
+#: inc/admin.php:1635
+msgid "New Features"
+msgstr "新機能"
+
+#: templates/newpost.php:18 inc/admin.php:1117
+msgid "New Post"
+msgstr "新規投稿"
+
+#: templates/exclude.php:96 templates/preload.php:37 inc/admin.php:1771
+msgid "Posts"
+msgstr "投稿"
+
+#: templates/preload.php:20 inc/admin.php:1063
+msgid "Preload"
+msgstr "先読み"
+
+#: templates/exclude.php:95 templates/preload.php:49 inc/admin.php:1769
+msgid "Tags"
+msgstr "タグ"
+
+#: inc/admin.php:1715
+msgid "Get It Now!"
+msgstr "今すぐ入手"
+
+#: inc/admin.php:1693
+msgid "Buy"
+msgstr "購入"
+
+#: inc/admin.php:1678
+msgid "Purchased"
+msgstr "購入済み"
+
+#: inc/admin.php:1278 inc/admin.php:1284 inc/admin.php:1291
+msgid "Google Fonts"
+msgstr "Google フォント"
+
+#: wpFastestCache.php:1732
+msgid "Once Every 3 Days"
+msgstr "3日に1度"
+
+#: wpFastestCache.php:1642
+msgid "Once Every 1 Minute"
+msgstr "1分毎に1度"
+
+#: wpFastestCache.php:1648
+msgid "Once Every 5 Minutes"
+msgstr "5分毎に1度"
+
+#: wpFastestCache.php:1654
+msgid "Once Every 15 Minutes"
+msgstr "15分毎に1度"
+
+#: wpFastestCache.php:1660
+msgid "Twice an Hour"
+msgstr "1時間に2度"
+
+#: wpFastestCache.php:1666
+msgid "Once an Hour"
+msgstr "1時間毎に1度"
+
+#: wpFastestCache.php:1726
+msgid "Once a Day"
+msgstr "1日に1度"
+
+#: wpFastestCache.php:1696
+msgid "Once Every 6 Hours"
+msgstr "6時間毎に1度"
+
+#: wpFastestCache.php:1756
+msgid "Once a Month"
+msgstr "1ヶ月に1度"
+
+#: wpFastestCache.php:1762
+msgid "Once a Year"
+msgstr "1年毎に1度"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/wp-fastest-cache/"
+msgstr "https://ja.wordpress.org/plugins/wp-fastest-cache/"
+
+#. Plugin Name of the plugin
+msgid "WP Fastest Cache"
+msgstr "WP Fastest Cache"
+
+#. Description of the plugin
+msgid "The simplest and fastest WP Cache system"
+msgstr "最もシンプルで速いWPキャッシュシステム"
+
+#. Author URI of the plugin
+msgid "http://tr.linkedin.com/in/emrevona"
+msgstr "http://tr.linkedin.com/in/emrevona"
+
+#. Author of the plugin
+msgid "Emre Vona"
+msgstr "Emre Vona"
+
+#: wpFastestCache.php:1744
+msgid "Once Every 10 Days"
+msgstr "10日に1度"
+
+#: wpFastestCache.php:1672
+msgid "Once Every 2 Hours"
+msgstr "2時間毎に1度"
+
+#: wpFastestCache.php:1678
+msgid "Once Every 3 Hours"
+msgstr "3時間毎に1度"
+
+#: wpFastestCache.php:1684
+msgid "Once Every 4 Hours"
+msgstr "4時間毎に1度"
+
+#: wpFastestCache.php:1720
+msgid "Once Every 10 Hours"
+msgstr "10時間毎に1度"
+
+#: wpFastestCache.php:1714
+msgid "Once Every 9 Hours"
+msgstr "9時間毎に1度"
+
+#: wpFastestCache.php:1708
+msgid "Once Every 8 Hours"
+msgstr "8時間毎に1度"
+
+#: wpFastestCache.php:1702
+msgid "Once Every 7 Hours"
+msgstr "7時間毎に1度"
+
+#: wpFastestCache.php:1690
+msgid "Once Every 5 Hours"
+msgstr "5時間毎に1度"

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Vue Lesson</title>
+</head>
+<body>
+
+	<div id="app">
+		
+		<p>{{ text }}</p>
+		<p>{{ sample }}</p>
+
+		<p>{{ count }}</p>
+
+		<button v-on:click="textChange()">ボタン</button>
+		<button @click="textReset()">リセット</button>
+
+	</div>
+
+
+
+
+
+
+	<!-- Vue.js 導入部 -->
+	<script src="https://unpkg.com/es6-promise"></script>
+	<script src="https://unpkg.com/vue"></script>
+	<script src="https://unpkg.com/http-vue-loader"></script>
+
+	<!-- Vue.js Edit Start -->
+	<script type="text/javascript">
+		
+		var app = new Vue({
+			el:"#app",		// どの範囲を操作しますか（body / htmlは　NG）：element
+			data:{
+				text:'テキスト　サンプル',		// dataは、html側で使用可能にする「変数」
+				sample:'サンプル',
+				count:0,
+			},
+			methods:{						// methodsは、関数の集まり、機能・プログラミングの部分：methods => 手法
+				textChange(){
+					this.text = "テキスト　変換!!!!!";
+					this.countUp();
+				},
+				textReset(){
+					this.text = 'テキスト　サンプル';
+					this.countDown();
+				},
+				countUp(){
+					this.count++;
+				},
+				countDown(){
+					this.count--;
+				},
+			},
+		});
+
+	</script>
+	<!-- Vue.js Edit End -->
+
+</body>
+</html>
